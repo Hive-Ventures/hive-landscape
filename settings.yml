@@ -13,52 +13,52 @@ global:
     fb_admin: wanghauw
     description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
     twitter: '@hiveventuresio'
-  #membership: Hive Ventures Portfolio
-  #flags:
-  #  hide_license_for_categories:
-  #    - Hive Ventures Partner
-  #    - Hive Ventures Portfolio
+  membership: Hive Ventures Portfolio
+  flags:
+    hide_license_for_categories:
+      - Hive Ventures Partner
+      - Hive Ventures Portfolio
 twitter:
   search: www.hiveventures.io/landscape
   url: https://www.hiveventures.io/landscape
   text: Hive Ventures Landscape
-#relation:
-#  label: GraphQL Relation
-#  url: graphql
-#  values:
-#    - id: hosted
-#      label: GraphQL Foundation Projects
-#      children:
-#        - id: foundationproject
-#          label: GraphQL Foundation Projects
-##          prefix: GraphQL
- #         tag: Foundation Project
- #         color: '#3570af'
- #         big_picture_order: 1
- #         big_picture_label: GraphQL Foundation Project
- #         big_picture_color: rgb(24,54,114)
- #   - id: company
- #     label: GraphQL Foundation Member
- #     tag: Company
- #     big_picture_order: 3
- #   - id: member
- #     label: GraphQL Foundation Member Products/Projects
- #     tag: GraphQL Foundation Member
- #   - id: false
- #     label: Non-GraphQL Foundation Member Products/Projects
- #     url: 'no'
+relation:
+  label: GraphQL Relation
+  url: graphql
+  values:
+    - id: hosted
+      label: GraphQL Foundation Projects
+      children:
+        - id: foundationproject
+          label: GraphQL Foundation Projects
+          prefix: GraphQL
+          tag: Foundation Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: GraphQL Foundation Project
+          big_picture_color: rgb(24,54,114)
+    - id: company
+      label: GraphQL Foundation Member
+      tag: Company
+      big_picture_order: 3
+    - id: member
+      label: GraphQL Foundation Member Products/Projects
+      tag: GraphQL Foundation Member
+    - id: false
+      label: Non-GraphQL Foundation Member Products/Projects
+      url: 'no'
 membership:
   General:
     name: Hive Ventures
     label: Portfolio
     funding: General
-  #linux_foundation:
-  #  name: LF
-  #  label: Project
-  #  funding: Linux Foundation
-  #  crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
-  #'false':
-  #  funding: 'No'
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+  'false':
+    funding: 'No'
 home:
   header: >
     <h1>Hive Ventures Landscape</h1> The Hive Ventures landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
@@ -67,9 +67,9 @@ home:
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
-  #- url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/?utm_source=graphql_landscape&utm_medium=web&utm_campaign=kccnceu20
-  #  image: /images/info1.jpg
-  #  title: Kubecon + CloudNativeCon Europe 2020
+  - url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/?utm_source=graphql_landscape&utm_medium=web&utm_campaign=kccnceu20
+    image: /images/info1.jpg
+    title: Kubecon + CloudNativeCon Europe 2020
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Open source cards by age
@@ -128,7 +128,7 @@ big_picture:
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
-        category: Hive Portfolio Company
+        category: GraphQL Foundation Member
         rows: 4
         width: 650
         height: 150

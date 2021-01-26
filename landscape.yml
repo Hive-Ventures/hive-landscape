@@ -6,12 +6,11 @@ landscape:
         name: Spec
         items:
           - item:
-            name: GraphQL Spec
-            homepage_url: https://graphql.org
-            project: foundationproject
-            repo_url: https://github.com/graphql/graphql-spec
-            logo: graphql.svg
-            crunchbase: https://www.crunchbase.com/organization/graphql-foundation
+            name: Apollo Angular
+            homepage_url: https://apollo-angular.com/docs
+            repo_url: https://github.com/kamilkisiela/apollo-angular
+            logo: apollo-angular.svg
+            crunchbase: https://www.crunchbase.com/organization/the-guild-9777
       - subcategory:
         name: Tools
         items:
@@ -27,13 +26,6 @@ landscape:
             repo_url: https://github.com/apollographql/apollo-tooling
             logo: apollo-cli.svg
             crunchbase: https://www.crunchbase.com/organization/meteor
-          - item:
-            name: GraphiQL
-            homepage_url: https://github.com/graphql/graphiql
-            project: foundationproject
-            repo_url: https://github.com/graphql/graphiql
-            logo: graphiql.svg
-            crunchbase: https://www.crunchbase.com/organization/graphql-foundation
           - item:
             name: GraphQL CLI
             homepage_url: https://github.com/urigo/graphql-cli
