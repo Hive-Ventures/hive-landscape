@@ -13,7 +13,7 @@ global:
     fb_admin: wanghauw
     description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
     twitter: '@hiveventuresio'
-  membership: Hive Ventures Portfolio
+  #membership: Hive Ventures Portfolio
   flags:
     hide_license_for_categories:
       - Hive Ventures Partner
@@ -93,7 +93,7 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Projects
-        rows: 4
+        rows: 2
         width: 475
         height: 160
         top: 0
@@ -102,7 +102,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: Services
-        rows: 3
+        rows: 1
         width: 180
         height: 160
         top: 0
@@ -111,7 +111,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: Databases
-        rows: 3
+        rows: 1
         width: 275
         height: 160
         top: 0
@@ -120,7 +120,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: GraphQL Adopter
-        rows: 6
+        rows: 1
         width: 970
         height: 195
         top: 180
@@ -129,7 +129,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: GraphQL Foundation Member
-        rows: 4
+        rows: 1
         width: 650
         height: 150
         top: 390
