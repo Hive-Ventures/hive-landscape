@@ -15,52 +15,52 @@ global:
     twitter: '@hiveventuresio'
     #google_site_verification: u_xqWIf8_EzRP4UF92px16rTSoIP49D_g9i7M-4rXds
     #ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
-  membership: GraphQL Foundation Member
+  membership: Hive Ventures
   flags:
     hide_license_for_categories:
-      - GraphQL Adopter
-      - GraphQL Foundation Member
+#      - GraphQL Adopter
+#      - Hive Portfolio
 twitter:
   search: www.hiveventures.io/landscape
   url: https://www.hiveventures.io/landscape
   text: Hive Ventures Landscape
 relation:
-  label: GraphQL Relation
-  url: graphql
+  label: Hive Relation
+  url: hive
   values:
     - id: hosted
-      label: GraphQL Foundation Projects
+      label: Hive Ventures
       children:
-        - id: foundationproject
-          label: GraphQL Foundation Projects
-          prefix: GraphQL
-          tag: Foundation Project
+        - id: hiveportfolio
+          label: Hive Portfolio
+          prefix: Hive
+          tag: Hive Portfolio
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: GraphQL Foundation Project
+          big_picture_label: Hive Portfolio
           big_picture_color: rgb(24,54,114)
     - id: company
-      label: GraphQL Foundation Member
+      label: Hive Review
       tag: Company
       big_picture_order: 3
     - id: member
-      label: GraphQL Foundation Member Products/Projects
-      tag: GraphQL Foundation Member
+      label: Hive Dealflow
+      tag: Hive Portfolio
     - id: false
-      label: Non-GraphQL Foundation Member Products/Projects
+      label: Non-Hive Companies
       url: 'no'
 membership:
   General:
-    name: GraphQL
+    name: Hive
     label: Member
     funding: General
-  linux_foundation:
-    name: LF
-    label: Project
-    funding: Linux Foundation
-    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
-  'false':
-    funding: 'No'
+#  linux_foundation:
+#    name: LF
+#    label: Project
+#    funding: Linux Foundation
+#    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+#  'false':
+#    funding: 'No'
 home:
   header: >
     <h1>Hive Ventures Landscape</h1> The Hive Ventures Landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
@@ -89,8 +89,8 @@ big_picture:
     tab_index: -1
     url: landscape
     name: Landscape
-    title: GraphQL Landscape
-    fullscreen_header: See the interactive landscape at l.graphql.org
+    title: Hive Ventures Landscape
+    fullscreen_header: See the interactive landscape at www.hiveventures.io/landscape
     elements:
       - type: HorizontalCategory
         category: Projects
@@ -120,7 +120,7 @@ big_picture:
         color: rgb(79,121,13)
         fit_width: true
       - type: HorizontalCategory
-        category: GraphQL Adopter
+        category: Middleware
         rows: 6
         width: 970
         height: 195
@@ -129,7 +129,7 @@ big_picture:
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
-        category: GraphQL Foundation Member
+        category: Infrastructure
         rows: 4
         width: 650
         height: 150
@@ -146,33 +146,33 @@ big_picture:
           - type: text
             text: |
                 This landscape is intended as a map to explore the Taiwan big data and AI landscape, and also shows the portfolio companies of Hive Ventures.
-            top: 45
-            left: 140
-            right: 10
-            font_size: 10
+            top: 57
+            left: 110
+            right: 20
+            font_size: 8
           - type: image
             image: qr.svg
             top: 10
-            left: 20
+            left: 10
             width: 90
             height: 90
             title: QR Code
           - type: title
             title: www.hiveventures.io/landscape
-            top: 95
-            left: 10
-            font_size: 21
+            top: 98
+            left: 25
+            font_size: 18
           - type: image
             image: left-logo.svg
             width: 90
-            right: 105
-            top: 10
+            right: 115
+            top: 0
             title: Landscape Logo
           - type: image
             image: right-logo.svg
             width: 90
             right: 10
-            top: 10
+            top: 0
             title: Hive Ventures Logo
 #test:
 #  header: Hive Ventures Landscape
